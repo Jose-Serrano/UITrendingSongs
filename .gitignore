@@ -122,6 +122,23 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
